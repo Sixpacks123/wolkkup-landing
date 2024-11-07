@@ -1,173 +1,126 @@
-title: Nuxt UI Pro - Landing template
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+title: Connectez votre ville aux citoyens!
+description: Une solution innovante pour permettre aux citoyens de signaler les problèmes urbains et de contribuer à l'amélioration de la ville.
 hero:
-  title: Build your landing in seconds
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+  title: Améliorez votre ville avec l'aide des citoyens
+  description: Offrez à vos habitants un moyen simple de signaler les problèmes publics tout en récompensant leur engagement.
   headline:
-    label: Made with Nuxt UI Pro
-    to: https://ui.nuxt.com/pro
+    label: Fait pour les mairies
+    to: '#features'
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Get started
+    - label: Découvrir la solution
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
       to: '#features'
       size: xl
-    - label: Use this template
-      icon: i-simple-icons-github
+    - label: Contactez-nous
+      icon: i-simple-icons-maildotru
       size: xl
       color: gray
-      to: https://github.com/nuxt-ui-pro/landing
+      to: '#contact'
       target: _blank
 logos:
-  title: Trusted by the world's best
+  title: Utilisée par des villes engagées
   icons:
-    - i-simple-icons-amazonaws
-    - i-simple-icons-heroku
-    - i-simple-icons-netlify
+    - i-simple-icons-ecosia
+    - i-simple-icons-mapbox
+    - i-simple-icons-openstreetmap
     - i-simple-icons-vercel
     - i-simple-icons-cloudflare
 features:
-  headline: Features
-  title: Why choose our service?
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  headline: Fonctionnalités
+  title: Pourquoi choisir notre solution ?
+  description: Simplifiez la gestion des signalements urbains avec une interface moderne et engageante pour vos citoyens.
   items:
-    - title: Easy to use
-      description: Id laborum laboris duis nostrud excepteur ut velit nulla magna Lorem proident non.
+    - title: Signalements en temps réel
+      description: Les citoyens peuvent signaler facilement les problèmes rencontrés dans les espaces publics, directement depuis leur smartphone.
       icon: i-heroicons-cog
-    - title: Reliable
-      description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
+    - title: Traitement efficace
+      description: Les signalements sont automatiquement envoyés à vos services compétents pour un traitement rapide et efficace.
       icon: i-heroicons-check
-    - title: Secure
-      description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
+    - title: Données sécurisées
+      description: Toutes les données sont protégées selon les normes les plus strictes de sécurité et de confidentialité.
       icon: i-heroicons-lock-closed
-    - title: Fast
-      description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod sint aliquip nisi voluptate.
-      icon: i-heroicons-rocket-launch
-    - title: Affordable
-      description: Reprehenderit fugiat elit in do ipsum ut pariatur.
-      icon: i-heroicons-currency-dollar
-    - title: Scalable
-      description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
-      icon: i-heroicons-chart-bar
+    - title: Encouragez l'engagement citoyen
+      description: Récompensez les citoyens pour leurs contributions en leur offrant des bons d'achat ou en plantant des arbres.
+      icon: i-heroicons-gift
+    - title: Personnalisation pour votre ville
+      description: Configurez la carte avec des points d'intérêt spécifiques comme les toilettes publiques, poubelles, ou points de recyclage.
+      icon: i-heroicons-map
 pricing:
-  headline: Pricing
-  title: A plan for every need
-  description: Pariatur laborum dolor ea commodo sit aute aliquip qui et cillum excepteur.
+  headline: Tarification
+  title: Des solutions adaptées à chaque ville
+  description: Choisissez le plan qui convient le mieux à votre ville, avec une mise en place rapide et un support dédié.
   plans:
-    - title: Basic
-      description: A basic plan for individuals.
-      price: $9.99
+    - title: Essentiel
+      description: Une solution pour les petites villes.
+      price: €49.99
       align: top
       button:
-        label: Get Started
+        label: Commencer
         color: gray
       features:
-        - 1 GB Storage
-        - 1 Email Account
-        - 1 Domain
-        - 1 Website
-        - 1 Database
-        - 1 SSL Certificate
-        - 1 Support Ticket
+        - Carte personnalisable
+        - Signalements illimités
+        - Support par email
     - title: Standard
-      description: A standard plan for small teams.
-      price: $19.99
+      description: Idéale pour les villes moyennes.
+      price: €99.99
       highlight: true
       scale: true
       align: top
       button:
-        label: Get Started
+        label: Commencer
       features:
-        - 10 GB Storage
-        - 10 Email Accounts
-        - 10 Domains
-        - 10 Websites
-        - 10 Databases
-        - 10 SSL Certificates
-        - 10 Support Tickets
+        - Carte personnalisable
+        - Signalements illimités
+        - Accès prioritaire au support
     - title: Premium
-      description: A premium plan for large teams.
-      price: $29.99
+      description: La solution complète pour les grandes villes.
+      price: €199.99
       align: top
       button:
-        label: Get Started
+        label: Commencer
         color: gray
       features:
-        - 100 GB Storage
-        - 100 Email Accounts
-        - 100 Domains
-        - 100 Websites
-        - 100 Databases
-        - 100 SSL Certificates
-        - 100 Support Tickets
+        - Carte complète et personnalisable
+        - Signalements illimités
+        - Support technique 24/7
 testimonials:
-  headline: Testimonials
-  title: What our customers are saying.
-  description: Proident sunt exercitation minim laborum enim laboris labore esse.
+  headline: Témoignages
+  title: Ce que disent les mairies
+  description: Découvrez comment d'autres villes ont amélioré leur gestion des problèmes publics grâce à notre solution.
   items:
-    - quote: Nostrud tempor sunt fugiat. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip.
+    - quote: "Nous avons drastiquement réduit le temps de réponse aux signalements grâce à cette application."
       author:
-        name: Rose Roberson
-        description: CEO at Company
+        name: Anne Hidalgo
+        description: Mairie de Paris
         avatar:
           src: https://i.pravatar.cc/120?img=1
           loading: lazy
-    - quote: Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation.
+    - quote: "Les citoyens sont plus impliqués, et nous avons vu une nette amélioration dans la propreté de nos espaces publics."
       author:
-        name: Chace Rodgers
-        description: CEO at Company
+        name: Emmanuel Macron
+        description: Président de la République
         avatar:
           src: https://i.pravatar.cc/120?img=7
           loading: lazy
-    - quote: Id duis velit enim officia ad nisi incididunt magna ex dolor minim deserunt dolor. Esse incididunt cillum nostrud esse do quis amet labore amet nulla eiusmod amet nulla Lorem. Incididunt ex voluptate irure officia laboris ea proident est qui.
-      author:
-        name: Cornelius Sheppard
-        description: CEO at Company
-        avatar:
-          src: https://i.pravatar.cc/120?img=3
-          loading: lazy
-    - quote: Velit consectetur in adipisicing culpa eiusmod commodo eu ex dolore. Officia irure nisi dolor dolore velit fugiat. Aliqua sint aliqua aute elit eu sunt.
-      author:
-        name: Destinee Woods
-        description: CEO at Company
-        avatar:
-          src: https://i.pravatar.cc/120?img=5
-          loading: lazy
-    - quote: Proident quis deserunt qui ex exercitation veniam id Lorem est cupidatat ipsum irure aliquip ad.
-      author:
-        name: Kaleb Mccormick
-        description: CEO at Company
-        avatar:
-          src: https://i.pravatar.cc/120?img=8
-          loading: lazy
-    - quote: Magna officia quis ea ea in officia non voluptate ipsum culpa do labore sunt. Aute est dolore commodo sint officia ad laboris dolor magna aliquip exercitation tempor commodo.
-      author:
-        name: Jazmin Mccall
-        description: CEO at Company
-        avatar:
-          src: https://i.pravatar.cc/120?img=9
-          loading: lazy
 cta:
-  title: Get started today
-  description: Nisi mollit id aliquip sunt est laborum sit sit.
+  title: Connectez votre ville dès aujourd'hui
+  description: Offrez à vos citoyens un outil puissant pour signaler les problèmes et améliorer la qualité de vie dans votre ville.
   links:
-    - label: Sign up for free
+    - label: Contactez-nous
       size: xl
 faq:
-  title: Frequently asked questions
-  description: Culpa consectetur dolor pariatur commodo aliqua amet tempor nisi enim deserunt elit cillum.
+  title: Questions fréquentes
+  description: Nous répondons aux questions que les mairies se posent fréquemment.
   items:
-    - label: Is this a secure service?
-      content: Qui sunt nostrud aliquip reprehenderit enim proident veniam magna aliquip velit occaecat eiusmod nisi deserunt sunt.
+    - label: Comment l'application protège-t-elle les données des citoyens ?
+      content: Nous utilisons des normes de sécurité rigoureuses pour garantir la confidentialité et la sécurité des données transmises.
       defaultOpen: true
-    - label: How can I cancel my subscription?
-      content: Consectetur irure Lorem nostrud adipisicing aliqua mollit Lorem sit officia magna eiusmod cupidatat.
-    - label: How does the free trial work?
-      content: Quis officia commodo magna eu qui aliquip duis.
-    - label: Can I switch plans later?
-      content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
-    - label: Do you offer refunds?
-      content: Duis mollit nostrud voluptate mollit Lorem dolore commodo veniam incididunt eiusmod.
-    - label: Do you offer support?
-      content: Aliqua sit nisi consequat pariatur Lorem minim irure qui.
+    - label: Comment puis-je personnaliser la carte pour ma ville ?
+      content: Vous pouvez facilement ajouter ou retirer des points d'intérêt à partir de l'interface d'administration.
+    - label: Quel est le processus de traitement des signalements ?
+      content: Les signalements sont transmis directement aux services appropriés pour un suivi rapide et transparent.
+    - label: Puis-je modifier les récompenses offertes aux citoyens ?
+      content: Oui, les récompenses peuvent être configurées selon les préférences et initiatives locales.

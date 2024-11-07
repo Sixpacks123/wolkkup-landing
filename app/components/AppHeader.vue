@@ -37,14 +37,16 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge
-        label="Landing"
+      Wolk Up <UBadge
+        label="Beta"
         variant="subtle"
         class="mb-0.5"
       />
     </template>
 
     <template #right>
+      <UColorModeButton />
+
       <UButton
         label="Sign in"
         color="white"
@@ -52,13 +54,13 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
         trailing-icon="i-heroicons-arrow-right-20-solid"
         class="hidden lg:flex"
       />
+
     </template>
 
     <template #panel>
       <UAsideLinks :links="links" />
 
       <UDivider class="my-6" />
-
       <UButton
         label="Sign in"
         color="white"

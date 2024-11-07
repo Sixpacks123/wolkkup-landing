@@ -15,18 +15,20 @@ useSeoMeta({
       :title="page.hero.title"
       :description="page.hero.description"
       :links="page.hero.links"
+      class="animate-slidein"
+      orientation="vertical"
     >
       <template #headline>
         <UBadge
           v-if="page.hero.headline"
           variant="subtle"
           size="lg"
-          class="relative rounded-full font-semibold"
+          class="relative rounded-full font-semibold animate-slidein"
         >
           <NuxtLink
             :to="page.hero.headline.to"
             target="_blank"
-            class="focus:outline-none"
+            class="focus:outline-none animate-slidein"
             tabindex="-1"
           >
             <span
@@ -84,7 +86,6 @@ useSeoMeta({
     >
       <UPricingGrid
         id="pricing"
-        compact
         class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
       >
         <UPricingCard
